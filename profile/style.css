@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Playfair+Display:wght@600&display=swap');
+
+body {
+  background-color: #F6F9FC;
+  font-family: 'Mulish', sans-serif;
+  color: #092540;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #645BFF;
+  font-size: 40px;
+}
+
+h2 {
+  color: #645BFF;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #FEFEFE;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .1);
+  padding: 32px;
+  margin: 32px 0px;
+  text-align: center;
+}
+
+#image-circle {
+  border-radius: 50%;
+}
+
+.btn-blue {
+  padding: 16px 24px;
+  border-radius: 5px;
+  background-color: #645BFF;
+  color: #FEFEFE;
+  border: 1px solid transparent;
+}
+
+.btn-blue:hover {
+  background-color: transparent;
+  border: 1px solid #645BFF;
+  color: #645BFF;
+}
+
+p {
+  padding-bottom: 20px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+
+li a {
+  color: #d0d5da;
+  font-size: 32px;
+}
+
+li a:hover {
+  color: #645BFF;
+}
+
+@media (max-width: 960px) {
+
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 400px;
+  }
+
+}
